@@ -21,7 +21,10 @@ f.close()
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-b = open('bar.txt', 'wr')
-for line in range(3):
-    b.write(f"{line}, Does it work? \n") #upgraded python - still doesnt work
+b = open('bar.txt', 'w')
+b.write('Whats the password?\nEnglish, do you speak it?\ncan I have a sip of your Sprite?')
 b.close()
+# b = open('bar.txt', 'wr')
+# for line in range(3):
+#     b.write(f"{line}, Does it work? \n") #upgraded python - still doesnt work
+# b.close()
